@@ -18,7 +18,7 @@ Deelan: Veevart QA Test
     - To create/update a Task: ToDoList.saveToDoRecord(Task)
     - To get a Task: ToDoList.loadData(ToDoList.TASK_STATUS) | TASK_STATUS{IN_PROGRESS,COMPLETED}
 
-    All methods you get a response:
+    All methods returns a response:
 
     {
         // if operation failed or not
